@@ -1,0 +1,10 @@
+.jumbotron {
+  background-image: url(../img/vitrine.jpg);
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+}
+
+.btn {
+  border-radius: 0.1rem;
+}
