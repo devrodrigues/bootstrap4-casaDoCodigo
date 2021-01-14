@@ -8,3 +8,35 @@
 .btn {
   border-radius: 0.1rem;
 }
+
+/*Image Replacement*/
+
+.social a[href='https://facebook.com/betterimages']
+{
+  background: url(../img/icone-face.png);
+  background-size: 36px 36px;
+}
+
+.social a[href='https://twitter.com/betterimages']
+{
+  background: url(../img/icone-insta.png);
+  background-size: 36px 36px;
+}
+
+.social a[href='https://instagram.com/betterimages']
+{
+  background: url(../img/icone-twitter.png);
+  background-size: 36px 36px;
+}
+
+.social a {
+  display: block;
+  width: 36px;
+  height: 36px;
+  text-indent: -9999px;
+}
+
+.social li {
+  display: inline-block;
+  margin-left: 1em;
+}
