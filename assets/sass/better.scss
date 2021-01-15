@@ -1,0 +1,59 @@
+@import "functions";
+@import "variables";
+@import "mixins";
+@import "root";
+@import "reboot";
+@import "type";
+@import "images";
+//@import "code";
+@import "grid";
+//@import "tables";
+@import "forms";
+@import "buttons";
+@import "transitions";
+@import "dropdown";
+@import "button-group";
+@import "input-group";
+@import "custom-forms";
+@import "nav";
+@import "navbar";
+@import "card";
+//@import "breadcrumb";
+//@import "pagination";
+//@import "badge";
+@import "jumbotron";
+//@import "alert";
+//@import "progress";
+@import "media";
+@import "list-group";
+//@import "close";
+//@import "toasts";
+//@import "modal";
+//@import "tooltip";
+//@import "popover";
+//@import "carousel";
+//@import "spinners";
+@import "utilities";
+//@import "print";
+
+
+.menu-nav {
+    @extend .navbar;
+    @extend .navbar-expand-lg;
+    @extend .navbar-dark;
+    @extend .bg-primary;
+}
+
+/*
+pt = padding-top | sem especificar tamanho = aplica a todos os tamanhos de tela
+*/
+.hall {
+    @extend .bg-dark;
+    @extend .text-light;
+    @extend .pt-4;
+}
+
+.reviews {
+    @extend .container;
+    @extend .pt-5;
+}
